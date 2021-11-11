@@ -1,43 +1,30 @@
 
 .wrapper {
-    width: 400px;
+    max-width: 100%;
     margin: 0 auto;
 }
-
-header, footer {
-    width: 400px;
-}
-
-nav, section {
-    width: 400px;
-}
+ 
 
 /* 태블릿 모드 - 800px */
 @media screen and (min-width:800px) {
-    .wrapper { width: 640px; }
+    .wrapper { max-width: 90%; }
 
-    header, footer { width: 640px; }
+    header, footer { width: 100%; }
 
     nav, section { float: left; }
 
-    nav { width: 135px; margin-right: 10px; }
+    nav { width: 20%; margin-right: 1.5%; }
 
-    section { width: 495px; }
+    section { width: 78%; }
 
     footer { clear: both; }
 }
 
 /* PC 모드 - 1000px */
 @media screen and (min-width: 1000px) {
-    .wrapper { width: 960px; }
 
-    header, footer { width: 960px; }
+    .wrapper { width: 66.666%; }
 
-    nav, section { float: left; }
-
-    nav { width: 200px; }
-
-    section { width: 750px; }
 }
 
 

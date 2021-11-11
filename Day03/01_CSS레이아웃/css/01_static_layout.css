@@ -1,7 +1,11 @@
 
-.wrapper {
-    width: 100%;
+.wrapper { 
+    width: 960px;
     margin: 0 auto;
+}
+
+header, footer {
+    width: 960px;
 }
 
 nav, section {
@@ -10,12 +14,12 @@ nav, section {
 
 footer { clear:both }
 
-nav { width: 20%;
-      margin-right: 1.5%;
+nav { width: 200px;
+      margin-right: 10px;
 }
 
 section {
-    width: 78%;
+    width: 750px;
 }
 
 * { box-sizing: border-box; }
