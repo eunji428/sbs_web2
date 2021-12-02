@@ -7,7 +7,7 @@ header, section, footer { border: 1px solid black; }
 /* normalize */
 a { text-decoration: none; color: black; }
 
-/* 공통 */
+/* 공통 */   
 .inner-box { width: 1200px; margin: 0 auto }
 .mobile { display: none;}
 
